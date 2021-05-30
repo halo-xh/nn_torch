@@ -1,5 +1,8 @@
 import time
 
+import torchvision
+from torch.utils.data import DataLoader
+
 from mnist.Classifymni import Classifymni
 from mnist.MnistDataset import MnistDataset
 
